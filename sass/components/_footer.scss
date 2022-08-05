@@ -1,0 +1,146 @@
+@import '../base/base';
+@import '../variables/variable';
+
+/*=================================================
+                Footer part start
+=================================================*/
+#footer {
+    background: #0d113d;
+
+    .footer_top {
+        padding: 32px 0;
+        background: $hover;
+        border-radius: 0 0 10px 10px;
+
+        .footer_reg_text {
+            padding-left: 25px;
+
+            h5 {
+                color: #fff;
+                font-size: 21px;
+                font-weight: 600;
+                font-family: $mon;
+                text-transform: uppercase;
+            }
+
+            p {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 300;
+                font-family: $mon;
+            }
+        }
+
+        .footer_search {
+            input {
+                color: #e0c2f6;
+                font-size: 15px;
+                font-weight: 300;
+                font-family: $mon;
+                background: transparent;
+                border: 2px solid #e0c2f6;
+                border-radius: 5px;
+                width: 100%;
+                height: 55px;
+                padding-left: 30px;
+            }
+        }
+
+        .footer_btn {
+            a {
+                color: #fff;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: $mon;
+                background: transparent;
+                border: 2px solid #fff;
+                border-radius: 5px;
+                width: 91%;
+                height: 55px;
+                display: inline-block;
+                line-height: 55px;
+                text-align: center;
+                transition: all linear .3s;
+
+                &:hover {
+                    background: #fff;
+                    color: $hover;
+                }
+            }
+        }
+    }
+
+    .footer_mid {
+        padding: 75px 0;
+        border-bottom: 2px solid #1e224d;
+
+        .footer_des {
+            p {
+                color: #fff;
+                font-size: 15px;
+                font-weight: 300;
+                font-family: $mon;
+                line-height: 26px;
+                margin-top: 35px;
+            }
+        }
+
+        .footer_menu {
+            .br_right {
+                border-right: 1px solid #1e224d;
+            }
+
+            .footer_menu_item {
+                ul {
+                    li {
+                        margin-bottom: 18px;
+
+                        a {
+                            color: #fff;
+                            font-size: 15px;
+                            font-weight: 300;
+                            font-family: $mon;
+                            text-transform: uppercase;
+                            transition: all linear .3s;
+
+                            &:hover {
+                                color: $hover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer_bottom {
+        padding: 35px 0;
+
+        p {
+            color: #b3b5d1;
+            font-size: 15px;
+            font-weight: 300;
+            font-family: $mon;
+        }
+
+        .footer_logos {
+            display: flex;
+            justify-content: end;
+
+            ul {
+                li {
+                    margin-left: 25px;
+
+                    a {
+                        color: #fff;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*=================================================
+                Footer part end
+=================================================*/

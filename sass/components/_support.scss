@@ -1,0 +1,63 @@
+@import '../base/base';
+@import '../variables/variable';
+
+/*=================================================
+                Support part start
+=================================================*/
+#support {
+    padding: 40px 0 0;
+
+    .support_left {
+        text-align: center;
+    }
+
+    .support_right {
+        h5 {
+            color: #0d113d;
+            font-size: 33px;
+            font-weight: 600;
+            margin-top: 30px;
+        }
+
+        p {
+            color: #0d113d;
+            font-size: 15px;
+            font-weight: 300;
+            margin-top: 25px;
+            line-height: 26px;
+        }
+
+        ul {
+            margin-top: 75px;
+
+            li {
+                color: #0d113d;
+                font-size: 15px;
+                font-weight: 300;
+                padding-left: 20px;
+                margin-bottom: 10px;
+                position: relative;
+                &:after{
+                    position: absolute;
+                    content: '';
+                    top: 50%;
+                    left: 0;
+                    width: 10px;
+                    height: 10px;
+                    border-radius: 50%;
+                    background: #a5a5a5;
+                    transform: translateY(-50%);
+                    transition: all linear .3s;
+                }
+                &:hover{
+                    &::after{
+                        background: $hover;
+                    }
+                }
+            }
+        }
+    }
+}
+/*=================================================
+                Support part end
+=================================================*/

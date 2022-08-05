@@ -1,0 +1,57 @@
+@import '../base/base';
+@import '../variables/variable';
+
+/*=================================================
+                Blog part start
+=================================================*/
+#blog {
+    padding: 70px 0 110px;
+
+    .blog_inner {
+        margin-top: 75px;
+        position: relative;
+
+        &::after {
+            position: absolute;
+            content: '';
+            bottom: -40px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: #f2f2f2;
+        }
+
+        .blog_line {
+            color: $hover;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: $mon;
+            text-transform: capitalize;
+        }
+
+        .blog_date {
+            color: #a2a2a2;
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $mon;
+            text-transform: capitalize;
+        }
+
+        .blog_own {
+            p {
+                color: #a2a2a2;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: $mon;
+
+                a {
+                    color: #0d113d;
+                }
+            }
+        }
+    }
+}
+
+/*=================================================
+                Blog part end
+=================================================*/

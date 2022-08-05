@@ -1,0 +1,43 @@
+@import '../base/base';
+@import '../variables/variable';
+
+/*=================================================
+                Contact part start
+=================================================*/
+#contact {
+    padding: 50px 0;
+    background: $hover;
+
+    .contact_left {
+        p {
+            color: #fff;
+            font-size: 25px;
+            font-weight: 600;
+        }
+    }
+
+    .contact_right {
+        text-align: right;
+
+        a {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            text-transform: uppercase;
+            padding: 20px 60px;
+            border: 2px solid #fff;
+            background: transparent;
+            border-radius: 5px;
+            transition: all linear .3s;
+
+            &:hover {
+                color: $hover;
+                background: #fff;
+            }
+        }
+    }
+}
+
+/*=================================================
+                Contact part end
+=================================================*/
